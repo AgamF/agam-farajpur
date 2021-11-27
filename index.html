@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agam Farajpur</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Secular+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar sticky">
+        <a id="home" href="#">Home</a>
+        <a id="about" onclick="window.scrollTo(0, 650);" href="#">About me</a>
+        <a id="relevant" onclick="window.scrollTo(0, 2520);" href="#">Relevant projects</a>
+        <a id="expert" onclick="window.scrollTo(0, 1550);" href="#">Expertise</a>
+    </div>
+    <div id="main" class="main-container">
+        <h1 class="animate__animated animate__backInDown">Agam Farajpur</h1>
+        <h3 class="animate__animated animate__backInLeft">I'm a 17 year old web developer & designer</h3>
+    </div>
+    <span class="button-container animate__animated animate__bounceInUp">
+        <button id="button1">Translate to Hebrew</button>
+        <button id="button2">Contact me</button>
+    </span>
+
+    <div class="buffer">
+        <span class="about-me-container">
+            <img style="margin-right: 20px; border-radius: 40px; margin-left: 15px;" src="assets/coding stock image.jpg" width="350" height="340">
+            <div class="about-me-text">
+                <h1 id="aboutMeTitle">About me</h1>
+                <p id="aboutMeParagraph">Hi! My name's Agam and i love computers. I'm 17 years old and i live in Israel. During my free time i mess around with making interactive webpages and code applications and programs. My current education level is senior year highschool, i study journalism and jewish philosophy on top of using my free time to code!</p>
+                <div>
+                    <a href="#">LinkedIn</a>
+                    <a href="https://www.instagram.com/agamfaraj/">Instagram</a>
+                </div>
+            </div>
+        </span>
+        <span class="about-me-container2">
+            <img style="margin-right: 20px; border-radius: 40px; margin-left: 15px;" src="assets/camera.jpg" width="400" height="300">
+            <div class="about-me-text2">
+                <p id="vidEditingParagraph">I have experience at video editing with Priemere Pro, i used to mainly edit video game montages, mostly when i was playing. When i was done editing i uploaded each edit to my youtube channel and ever so often showcase it to my friends and family.</p>
+            </div>
+        </span>
+        <span class="about-me-container3">
+            <img style="margin-right: 20px; border-radius: 40px; margin-left: 15px;" src="assets/ichigo.jpg" width="400" height="300">
+            <div class="about-me-text2">
+                <p id="drawingParagraph">I also occasionally draw. Mostly anime & fictional characters that i like. In fact, my entire wall that's in my room is covered with beautiful drawings.</p>
+            </div>
+        </span>
+    </div>
+    <div class="buffer2"></div>
+
+    <div class="buffer3">
+        <span class="expertise-container">
+            <img src="assets/expertise stock image.jpg" width="650" height="450">
+            <div>
+                <p id="expertiseParagraph">I am fluent in nearly 4 computer and programming languages, such as Javascript, Python, HTML and CSS.
+                   <br><br> i know how to operate several other technologies such as Git bash, node.js, and react.js 
+                   <br><br> i'm familiar with web development libraries such as Bootstrap and Jquery, and Integrated development environments such as Visual studio, PyCharm IDE and Sublime text.
+                </p>
+            </div>
+        </span>
+    </div>
+
+    <div class="buffer4">
+        <div class="img-container">
+            <img src="assets/project screenshots/taxup.png">
+            <h4>Taxup</h4>
+        </div>
+        <div class="img-container">
+            <img src="assets/project screenshots/portlandingpage.png">
+            <h4>Portfolio landing page</h4>
+        </div>
+        <div class="img-container">
+            <img src="assets/project screenshots/discordmusicbot.png">
+            <h4>Discord music bot</h4>
+        </div>
+        <div class="img-container">
+            <img src="assets/project screenshots/mybike.png">
+            <h4>MyBike</h4>
+        </div>
+    </div>
+
+    <div class="buffer5">
+        <form id="contact-form">
+            <h2 id="email">My Email: agam123theking@gmail.com</h2>
+            <input id="textfield" type="text" placeholder="Enter your email message here:">
+            <button id="email-submit">Submit</button>
+        </form>
+        <div id="phone-form">
+            <h2 id="phonenumber">Or my Phone number: 972+ 052-292-9215</h2>
+            <img src="assets/bluephone.png" width="100" height="100" style="border-radius: 50px; margin-bottom: 20px;">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
